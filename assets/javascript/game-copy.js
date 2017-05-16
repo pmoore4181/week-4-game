@@ -89,10 +89,12 @@ function compareScores() {
 };
 
 // execute each function
-createCrystalValue();
+
 createGoal();
+
 assignCrystalValue();
-compareScores();	
+compareScores();
+createCrystalValue();	
 
 
 
