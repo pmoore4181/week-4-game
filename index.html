@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <title>Cool Dogs Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+	
+	<div class="page-header text-center">
+	  	<h1>Cool Dogs Game</h1>
+	</div>
+
+<div class="container">
+
+	<div class= "row">
+
+<!-- Left hand column with goalNumber, userScore, wins, losses -->
+		<div class="col-xs-3">
+			<div class="row" id="goalNumberSection">
+				<div class="panel panel-default">
+			  		<div class="panel-heading">
+			    		<h3 class="panel-title text-center">Goal Number of Biscuits</h3>
+			  		</div>
+				  	<div class="panel-body text-center">
+						<div id="goal"></div>					
+				  	</div>
+				</div>
+			</div>
+			<div class="row" id="yourScoreSection">
+				<div class="panel panel-default">
+			  		<div class="panel-heading">
+			    		<h3 class="panel-title text-center">Your Biscuits</h3>
+			  		</div>
+				  	<div class="panel-body text-center">
+						<div id="yourScore"></div>					
+				  	</div>
+				</div>
+			</div>
+			<div class="row" id="winsSection">
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+				  		<div class="panel-heading">
+				    		<h3 class="panel-title text-center">Bones</h3>
+				  		</div>
+					  	<div class="panel-body text-center">
+							<div id="yourWins"></div>					
+					  	</div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel panel-default">
+				  		<div class="panel-heading">
+				    		<h3 class="panel-title text-center">Losses</h3>
+				  		</div>
+					  	<div class="panel-body text-center">
+							<div id="yourLosses"></div>					
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-5">
+			<div class="panel panel-default">
+		  		<div class="panel-heading">
+		    		<h3 class="panel-title text-center">Rules of the Game</h3>
+		  		</div>
+			  	<div class="panel-body">
+			    	<!-- <p>You will be given a random Goal Number of Bisciuts at the start of the game.</p>
+			    	<br> -->
+			    	<p>Here four of the coolest dogs around. If you click on one of those doggos, they will give a specific amount of biscuits to you.</p>
+			    	<br>
+			    	<p>If you match Your Biscuits to the Goal Number of Biscuits, you win a Bone. If you get greedy and take too many biscuits from those cool puppers, you lose.</p>
+			    	<br>
+			    	<p>I won't tell you how many biscuits each dog has so pay attention to your score.</p>
+			    	<br>
+			    	<p>Each time the game starts, these doggies will grab a new amount of bisciuts.</p>
+			  	</div>
+			</div>
+		</div>
+
+		<div class="col-xs-4">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title text-center">Click on a cool dog to see how many biscuits they have</h3>
+				</div>
+				<div class = "panel-body">
+					<div class="row">
+						<div class="col-xs-6">
+							<button class="crystal" id="firstCrystal"><img src="assets/images/dog1.jpg" /></button>
+						</div>
+						<div class="col-xs-6">
+							<button class="crystal" id="secondCrystal"><img src="assets/images/dog2.jpg_256" /></button>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-xs-6">
+							<button class="crystal" id="thirdCrystal"><img src="assets/images/dog3.jpg" /></button>
+						</div>
+						<div class="col-xs-6">
+							<button class="crystal" id="fourthCrystal"><img src="assets/images/dog4.jpg" /></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+</div> <!-- Closing page container -->
+
+	<!-- Link to Javascript file -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
