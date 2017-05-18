@@ -1,6 +1,33 @@
+/* =================== Body ================================== */
+
+.container {
+	margin-top: 3%;
+}
+
+body {
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.panel {
+	opacity: 0.75;
+}
+
+
+
 /* ================== Header =================================*/
 
+.page-header {
+	background-color: rgb(179,179,179);
+	padding-top:1%;
+	opacity: .9;
+	position: relative;
+	top: -50px;
 
+}
 
 
 /* ================ Goal Number Section =====================*/
